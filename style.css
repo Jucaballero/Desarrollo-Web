@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*main stailing*/
+html,
+body {
+font-family: "Roboto", sans-serif
+}
+
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+p{
+    font-size: 16px;
+    line-height: 1.7em;
+    margin: 10px 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*clases*/
+/*container*/
+/* ----- el #llama al ID y el .llama al CONTAINER*/
+.container{
+    margin: auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.display-1{
+    font-size: 88px;
+    font-weight: 300;
+}
+.display-2{
+    font-size: 20px;
+    font-weight: 80;
+    width: 70%;
+    padding-bottom: 40px;
+    color: black;
+
+}
+.display-3{
+    font-size: 30px;
+    font-weight: 60;
+    color:black;
+    text-align: left;
+    text-decoration: black;
+    text-transform:uppercase;
+}
+.btn{
+    background: burlywood;
+    color: black;
+    display: inline-block;
+    font-size: 15px;
+    padding: 12px 23px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    border-radius: 4px;
+}
+
+/*header*/
+/*main-header*/
+#main-header{
+    background-image: url(../imagenes/Beauty\ Salon\ Facial1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    color: black;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: burlywood;
+}
+ul:hover{
+    text-decoration: underline;
+}
+
+li {
+    float: right;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    size: 40px;
+}
+
+#main-header .logo{
+    font-size: 32px;
+    text-transform: uppercase;
+}
+#main-header h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#main-header p{
+    width: 70%;
+    padding-bottom: 40px;
+    color: black;
+}
+
+
+/*nosotros*/
+#nosotros{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding: 12px 23px;
+    text-align: left;
+    height: 70vh;
+    background-color:white;
+}
+.h2-nosotros{
+    color: black;
+    padding: center;
+}
+
+/*servicios*/
+#servicios-varios{
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    background-color: burlywood;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding: 12px 23px;
+    letter-spacing: 1px;
+
+}
+.servicios-row{
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding: 12px 23px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.servicios-box{
+    float: left;
+    width: 25%;
+    padding: 25px;
+    padding: 12px 23px;
+    letter-spacing: 1px;
+    justify-content: space-between;
+}
+
+/*clientes*/
+#nuestras-clientes{
+    background-repeat:none;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    padding: 12px 23px;
+    letter-spacing: 1px;
+}
+.nuestras-clientes p{
+    float: left;
+    padding: 12px 23px;
+    letter-spacing: 1px;
+    
+}
+
+
+/*galeria*/
+
+#galeria{
+    width: 100px;
+    padding-top: 120px;
+    padding-bottom: 100px;
+    width: 25%;
+    padding: 25px;
+    padding: 12px 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
